@@ -7,6 +7,7 @@ public class AppleIdentityProviderConfig extends OIDCIdentityProviderConfig {
 
     private static final String TEAM_ID = "teamId";
     private static final String KEY_ID = "keyId";
+    private static final String USE_LEGACY_ICON = "useLegacyIcon";
     private static final String DISPLAY_ICON_CLASSES = "fa fa-apple";
     private static final String DISPLAY_NAME = "displayName";
     private static final String DEFAULT_DISPLAY_NAME = "Sign in with Apple";
