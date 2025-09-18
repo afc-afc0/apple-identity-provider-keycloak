@@ -55,6 +55,6 @@ public class AppleIdentityProviderConfig extends OIDCIdentityProviderConfig {
 
     @Override
     public String getDisplayIconClasses() {
-        return DISPLAY_ICON_CLASSES;
+        return "true".equals(getConfig().get(USE_LEGACY_ICON)) ? DISPLAY_ICON_CLASSES : "";
     }
 }
